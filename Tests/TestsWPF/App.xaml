@@ -1,0 +1,16 @@
+﻿<ApplicationHosting x:Class="TestsWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TestsWPF"
+             StartupUri="Views/Windows/MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="/Styles/Main.xaml"/>
+
+             </ResourceDictionary.MergedDictionaries>
+
+             <local:ServicesLocator x:Key="Locator"/>
+         </ResourceDictionary>
+    </Application.Resources>
+</ApplicationHosting>

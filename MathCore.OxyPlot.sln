@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.OxyPlot", "MathCore.OxyPlot\MathCore.OxyPlot.csproj", "{D3166085-A97D-4E86-A926-9D874B350112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4566D64F-A930-405E-8487-3FB1ACE3E623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsWPF", "Tests\TestsWPF\TestsWPF.csproj", "{E3F7B3D7-1D54-48A9-9927-6C583DD6898F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "Tests\TestsConsole\TestsConsole.csproj", "{1D93152B-6388-47B1-8045-11568C2116AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3166085-A97D-4E86-A926-9D874B350112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3166085-A97D-4E86-A926-9D874B350112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3166085-A97D-4E86-A926-9D874B350112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3166085-A97D-4E86-A926-9D874B350112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F7B3D7-1D54-48A9-9927-6C583DD6898F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F7B3D7-1D54-48A9-9927-6C583DD6898F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F7B3D7-1D54-48A9-9927-6C583DD6898F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F7B3D7-1D54-48A9-9927-6C583DD6898F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D93152B-6388-47B1-8045-11568C2116AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D93152B-6388-47B1-8045-11568C2116AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D93152B-6388-47B1-8045-11568C2116AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D93152B-6388-47B1-8045-11568C2116AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3F7B3D7-1D54-48A9-9927-6C583DD6898F} = {4566D64F-A930-405E-8487-3FB1ACE3E623}
+		{1D93152B-6388-47B1-8045-11568C2116AA} = {4566D64F-A930-405E-8487-3FB1ACE3E623}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7025A94C-AE08-4985-A69E-84921A4261C3}
+	EndGlobalSection
+EndGlobal

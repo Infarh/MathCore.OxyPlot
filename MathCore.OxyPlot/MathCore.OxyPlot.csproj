@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Core.Drawing" Version="2.1.0" PrivateAssets="all"/>
+    <PackageReference Include="OxyPlot.ImageSharp" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Main/Base/Colors.xaml"/>
+        <ResourceDictionary Source="Main/ControlDefaults.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="Menu">
+        <Setter Property="DockPanel.Dock" Value="Top"/>
+    </Style>
+
+    <Style TargetType="StatusBar">
+        <Setter Property="DockPanel.Dock" Value="Bottom"/>
+    </Style>
+
+    <Style x:Key=".ButtonBase" TargetType="ButtonBase">
+        <Setter Property="Background" Value="White"/>
+    </Style>
+
+    <Style TargetType="RepeatButton" BasedOn="{StaticResource .ButtonBase}"/>
+    <Style TargetType="ToggleButton" BasedOn="{StaticResource .ButtonBase}"/>
+    <Style TargetType="Button" BasedOn="{StaticResource .ButtonBase}"/>
+
+</ResourceDictionary>

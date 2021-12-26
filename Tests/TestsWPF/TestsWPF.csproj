@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MathCore.OxyPlot\MathCore.OxyPlot.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathCore.Hosting.WPF" Version="0.0.6.2" />
+  </ItemGroup>
+
+</Project>
