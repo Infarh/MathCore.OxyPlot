@@ -1,6 +1,7 @@
 ﻿
 using OxyPlot;
 using OxyPlot.Axes;
+using OxyPlot.ImageSharp;
 using OxyPlot.Series;
 
 using TestsConsole.Models;
@@ -52,7 +53,7 @@ var model = new PlotModel
     }
 };
 
-var png_encoder = new OxyPlot.ImageSharp.PngExporter(800, 600);
+var png_encoder = new PngExporter(800, 600);
 var svg_encoder = new SvgExporter { Width = 800, Height = 600 };
 
 
