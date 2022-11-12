@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MathCore" Version="0.0.59" />
+    <Using Include="TestsConsole" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathCore" Version="0.0.71.3" />
   </ItemGroup>
 
   <ItemGroup>

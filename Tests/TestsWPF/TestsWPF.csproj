@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MathCore.Hosting.WPF" Version="0.0.6.2" />
+    <PackageReference Include="MathCore.Hosting.WPF" Version="0.0.6.13" />
   </ItemGroup>
 
 </Project>

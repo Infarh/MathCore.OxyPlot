@@ -1,2 +1,3 @@
-﻿
+﻿HistogramTest.Run();
+
 Console.ReadLine();
